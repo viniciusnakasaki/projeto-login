@@ -3,7 +3,7 @@
 /*
     Paleta de cores
     Verde: #001412
-    Roxo Gray: #717298
+    Roxo Gray: #7D7EA1
 */
 
 *{
@@ -14,7 +14,7 @@
 }
 
 body, html {
-    background-color: #717298;
+    background-color: #7D7EA1;
     height: 100vh;
     width: 100vw;
 }
@@ -37,13 +37,16 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
     display: block;
-    background: #717298 url(../imagens/building.jpg);
+    background: #7D7EA1 url(../imagens/building.jpg);
     background-size: cover;
-    background-position: left bottom;
+    background-position: bottom;
     height: 200px;
 }
 
